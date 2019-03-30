@@ -3,3 +3,9 @@ body {
   font-family: arial;
   margin: 0;
 }
+
+div.recipeoptions {
+  justify-content: center;
+  margin: 20px
+  padding: 1;
+}
