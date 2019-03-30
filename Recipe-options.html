@@ -1,67 +1,115 @@
-
 <!doctype html>
-<html>
+<html lang="en">
 <head>
-  <script
-  src="https://code.jquery.com/jquery-3.3.1.min.js"
-  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-  crossorigin="anonymous"></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+<link href="https://fonts.googleapis.com/css?family=News+Cycle|Roboto" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="./css/styles.css">
   <title> WIYF? </title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="./css/styles.cs">
 </head>
-
 <body>
+
+  <!-- Modal -->
+  <div class="modal fade" id="helpmodal" tabindex="-1" role="dialog" aria-labelledby="helpmodallabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="helpmodallabel">Help</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <h3>How to use this site:</h3>
+          <p> Let us know what you have left in your fridge (and cupboards!) and we will help you select a tasty recipe. Start by entering a few ingredients into the form and hit submit. Good Luck!</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <h1> What's in your fridge?</h1>
 
-  <!-- INSERT NAVBAR HERE (copy from homepage and edit) -->
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <a class="navbar-brand" href="#">WIYF?</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="./homepage.html">Home</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="./recipe-options.html">Inspiration<span class="sr-only">(current)</span></a>
+        </li>
+      </ul>
+      <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
+        <ul class="navbar-nav ml-auto">
+          <li>
+            <button type="button" class="btn btn-outline-light" data-toggle="modal" data-target="#helpmodal">
+              Need Help?
+            </button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
   <br>
   <br>
   <br>
 
   <!-- recipe options -->
   <div class="container">
-  <div class="row recipeoptions">
-    <div class="col-sm" id = recipe1>
+    <div class="row recipeoptions">
+      <div class="col-sm" id = recipe1>
 
-      <div class="card" style="width: 18rem;">
-        <img src="..." class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Recipe title 1</h5>
-          <p class="card-text">Description of Recipe here...</p>
-          <a href="#" class="btn btn-primary">View Recipe</a>
+        <div class="card" style="width: 18rem;">
+          <img src="..." class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Recipe title 1</h5>
+            <p class="card-text">Description of Recipe here...</p>
+            <a href="./Recipe-landing1.html" class="btn btn-primary">View Recipe</a>
+          </div>
         </div>
+
       </div>
 
-    </div>
+      <div class="col-sm" id = recipe2>
 
-    <div class="col-sm" id = recipe2>
-
-      <div class="card" style="width: 18rem;">
-        <img src="..." class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Recipe title 2</h5>
-          <p class="card-text">Description of Recipe here...</p>
-          <a href="#" class="btn btn-primary">View Recipe</a>
+        <div class="card" style="width: 18rem;">
+          <img src="..." class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Recipe title 2</h5>
+            <p class="card-text">Description of Recipe here...</p>
+            <a href="#" class="btn btn-primary">View Recipe</a>
+          </div>
         </div>
+
       </div>
 
-    </div>
+      <div class="col-sm" id = recipe3>
 
-    <div class="col-sm" id = recipe3>
-
-      <div class="card" style="width: 18rem;">
-        <img src="..." class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Recipe title 3</h5>
-          <p class="card-text">Description of Recipe here...</p>
-          <a href="#" class="btn btn-primary">View Recipe</a>
+        <div class="card" style="width: 18rem;">
+          <img src="..." class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Recipe title 3</h5>
+            <p class="card-text">Description of Recipe here...</p>
+            <a href="#" class="btn btn-primary">View Recipe</a>
+          </div>
         </div>
+
       </div>
-
     </div>
-  </div>
-
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
   </body>
-  </html>
+</body>
+</html>
