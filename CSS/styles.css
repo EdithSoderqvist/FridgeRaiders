@@ -6,7 +6,7 @@ body {
 
 div.recipeoptions {
   justify-content: center;
-  margin: 20px
+  margin: 10px
   padding: 1;
 }
 
@@ -27,4 +27,9 @@ p {
 nav {
   background-color: #2d1f12;
   font-family: 'Roboto', sans-serif;
+}
+
+#btn-btn-primary{
+  background-color: #black;
+
 }
