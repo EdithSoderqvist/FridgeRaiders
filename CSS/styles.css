@@ -16,15 +16,15 @@ h1, h2, h3, h4, h5 {
 
 h1 {
   text-align: center;
-  margin: 10px;
-  Color: black;
-  font-size: 5em;
+  margin: 5px;
+  Color: #2d1f12;
+  font-size: 4.5em;
 }
 
 p {
   font-family: 'News Cycle', sans-serif;
 }
 nav {
-  background-color: black;
+  background-color: #2d1f12;
   font-family: 'Roboto', sans-serif;
 }
