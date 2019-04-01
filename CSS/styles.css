@@ -8,21 +8,14 @@ body {
 
 
 div.landing {
+ float: left;
   margin: 10px
   padding: 1;
 }
 
-h1, h3, h4, h5 {
+h1, h2, h3, h4, h5 {
   font-family: 'News Cycle', sans-serif;
 }
-
-ul {
-  font-family: 'News Cycle', sans-serif;
-  text-align: center;
-  justify-content: center;
-  color: rgb(00,00,00);
-    }
-
 
 
 h2 {
@@ -38,6 +31,7 @@ h2 {
 
 
 h1 {
+  font-family: 'News Cycle', sans-serif;
   text-align: center;
   justify-content: center;
   margin: 5px;
@@ -71,3 +65,13 @@ div.recipesimage {
   .cardtext  {
   font-family: 'News Cycle', sans-serif;
   }
+
+
+  div.side-box {
+    float: left;
+    text-align: justify;
+    width: 1000px;
+    padding: 10px;
+    border: 1px solid #C0C0C0;
+    margin: 10;
+}
