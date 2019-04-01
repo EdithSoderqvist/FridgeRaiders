@@ -13,7 +13,7 @@ div.landing {
 }
 
 h1, h3, h4, h5 {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'News Cycle', sans-serif;
 }
 
 ul {
@@ -23,16 +23,10 @@ ul {
   color: rgb(00,00,00);
     }
 
-    div.recopt {
-      margin: 30px
-      padding: 1;
-      text-align: center
-      justify-content: center;
-      color: rgb(44,00,00);
-    }
+
 
 h2 {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'News Cycle', sans-serif;
     text-align: center;
     justify-content: center;
     display: flex;
@@ -53,28 +47,11 @@ h1 {
 }
 
 
-}
-
-p {
-  font-family: 'News Cycle', sans-serif;
-}
-
-p2 {
-  font-family: 'News Cycle', sans-serif;
-  text-align: center;
-  justify-content: center;
-  color: rgb(00,00,00);
-}
-
 nav {
   background-color: #2d1f12;
   font-family: 'Roboto', sans-serif;
 }
 
-#btn-btn-primary{
-  background-color: #black;
-
-}
 
 .header-site {
    background: url('/Users/edith/Desktop/coding_course/FridgeRaiders/FridgeRaiders/CSS/spoons.jpg');
@@ -82,3 +59,15 @@ nav {
    background-repeat: repeat;
 
 }
+
+
+div.recipesimage {
+
+  padding: 5px;
+  width: 700px;
+  align-items: flex-start;
+  }
+
+  .cardtext  {
+  font-family: 'News Cycle', sans-serif;
+  }
