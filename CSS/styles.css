@@ -8,7 +8,7 @@ body {
 
 
 div.landing {
- float: left;
+  float: left;
   margin: 10px
   padding: 1;
 }
@@ -54,24 +54,16 @@ nav {
 
 }
 
-
-div.recipesimage {
-
-  padding: 5px;
-  width: 700px;
+div.box {
+  flex-direction: row;
   align-items: flex-start;
-  }
-
-  .cardtext  {
-  font-family: 'News Cycle', sans-serif;
-  }
+  border: 1px solid #C0C0C0;
+}
 
 
-  div.side-box {
-    float: left;
+div.side box {
     text-align: justify;
-    width: 1000px;
-    padding: 10px;
+    padding: 5px;
     border: 1px solid #C0C0C0;
-    margin: 10;
+    margin-left: 100px;
 }
