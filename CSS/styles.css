@@ -1,29 +1,71 @@
 body {
-  color: rgb(65,75,86);
-  font-family: arial;
+  color: rgb(00,00,00);
+  font-family: Roboto; sans-serif;
   margin: 0;
+  text-align: center
+  justify-content: center;
 }
 
-div.recipeoptions {
-  justify-content: center;
+
+div.landing {
   margin: 10px
   padding: 1;
 }
 
-h1, h2, h3, h4, h5 {
+h1, h3, h4, h5 {
   font-family: 'Roboto', sans-serif;
 }
 
+ul {
+  font-family: 'News Cycle', sans-serif;
+  text-align: center;
+  justify-content: center;
+  color: rgb(00,00,00);
+    }
+
+    div.recopt {
+      margin: 30px
+      padding: 1;
+      text-align: center
+      justify-content: center;
+      color: rgb(44,00,00);
+    }
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    padding: 20px;
+    margin: 0 auto;
+    border-radius: 130px;
+
+  }
+
+
 h1 {
   text-align: center;
+  justify-content: center;
   margin: 5px;
   Color: #2d1f12;
   font-size: 4.5em;
+
+}
+
+
 }
 
 p {
   font-family: 'News Cycle', sans-serif;
 }
+
+p2 {
+  font-family: 'News Cycle', sans-serif;
+  text-align: center;
+  justify-content: center;
+  color: rgb(00,00,00);
+}
+
 nav {
   background-color: #2d1f12;
   font-family: 'Roboto', sans-serif;
@@ -31,5 +73,12 @@ nav {
 
 #btn-btn-primary{
   background-color: #black;
+
+}
+
+.header-site {
+   background: url('/Users/edith/Desktop/coding_course/FridgeRaiders/FridgeRaiders/CSS/spoons.jpg');
+   height: 250px;
+   background-repeat: repeat;
 
 }
