@@ -54,16 +54,25 @@ nav {
 
 }
 
-div.box {
-  flex-direction: row;
-  align-items: flex-start;
+div.bigbox {
   border: 1px solid #C0C0C0;
+  margin-left: 50px;
+  margin-right: 50px;
+  display: flex;
+
+}
+
+div.box {
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 30px;
+
 }
 
 
-div.side box {
+div.side-box {
     text-align: justify;
     padding: 5px;
-    border: 1px solid #C0C0C0;
-    margin-left: 100px;
+    margin-top: 65px;
+    margin-right: 10px
 }
