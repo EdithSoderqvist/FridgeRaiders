@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="./css/styles.css">
 
-  <title>  WIYF? </title>
+        <title>  WIYF? </title>
 
 </head>
 
@@ -26,7 +26,7 @@
           </button>
         </div>
         <div class="modal-body">
-          <p> Let us know what you have left in your fridge (and cupboards!) and we will help you select a tasty recipe. Start by entering a few ingredients into the form and hit "Let's get cooking!". Good Luck!</p>
+          <p> Let us know what you have left in your fridge (and cupboards!) and we will help you select a tasty recipe. Start by entering a few ingredients into the form and hit submit. Good Luck!</p>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -35,26 +35,27 @@
     </div>
   </div>
 
-  &nbsp
-  &nbsp
-  &nbsp
-  &nbsp
+&nbsp
+&nbsp
+&nbsp
+&nbsp
   <h1>
-    WHAT'S IN YOUR FRIDGE?
+       WHAT'S IN YOUR FRIDGE?
   </h1>
 
   <div class="header-site">
-    .
+  .
   </div>
 
 
   <!-- Navbar -->
   <nav class="navbar navbar-expand-lg navbar-dark">
+    <a class="navbar-brand" href="#">WIYF?</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav justify-content-right">
+      <ul class="navbar-nav">
         <li class="nav-item active">
           <a class="nav-link" href="./homepage.html">HOME <span class="sr-only">(current)</span></a>
         </li>
@@ -62,84 +63,69 @@
           <a class="nav-link" href="./recipe-options.html">INSPIRATION</a>
         </li>
       </ul>
-    </div>
-    <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
-      <ul class="navbar-nav ml-auto">
-        <li>
-          <button type="button" class="btn btn-outline-light" data-toggle="modal" data-target="#helpmodal">
-            NEED HELP?
-          </button>
-        </li>
-      </ul>
+      <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
+        <ul class="navbar-nav ml-auto">
+          <li>
+            <button type="button" class="btn btn-outline-light" data-toggle="modal" data-target="#helpmodal">
+              NEED HELP?
+            </button>
+          </li>
+        </ul>
+      </div>
     </div>
   </nav>
+<h2>
+       <form>
 
-  <div class="container" id="formcontent">
-    <div class="row">
-      <div class="col-sm" id = "add-ingredients">
-        <form>
-          <fieldset>
-            <h2><legend>Add your ingredients:</legend></h2>
-            <p><center>
-              <input type = "checkbox"
-              id = "Pasta"
-              value = "Pasta" />
-              <label for = "Pasta">Pasta</label>
-              <input type = "checkbox"
-              id = "Salmon"
-              value = "Salmon" />
-              <label for = "Salmon">Salmon</label>
-              <input type = "checkbox"
-              id = "Chicken"
-              value = "Chicken" />
-              <label for = "Chicken">Chicken</label>
-              <input type = "checkbox"
-              id = "Parmesan"
-              value = "Parmesan" />
-              <label for = "Parmesan">Parmesan</label>
-              <input type = "checkbox"
-              id = "Freefromnuts"
-              value = "Tomatoes" />
-              <label for = "Tomatoes">Tomatoes</label>
-              <input type = "checkbox"
-              id = "SingleCream"
-              value = "SingleCream" />
-              <label for = "SingleCream">Single Cream</label>
-              <input type = "checkbox"
-              id = "Eggs"
-              value = "Eggs" />
-              <label for = "Eggs">Eggs</label>
-              <br>
-            </p>
-          </fieldset>
-        </form>
-      </h4>
-    </center>
-  </div>
+       <fieldset>
+         <legend>Add your 5 ingredients </legend> </h2>
+           <p> <center>
+               <input type = "checkbox"
+                   id = "Pasta"
+                   value = "Pasta" />
+               <label for = "Pasta">Pasta</label>
+               <input type = "checkbox"
+                   id = "Salmon"
+                   value = "Salmon" />
+               <label for = "Salmon">Salmon</label>
+               <input type = "checkbox"
+                   id = "Chicken"
+                   value = "Chicken" />
+               <label for = "Chicken">Chicken</label>
+               <input type = "checkbox"
+                   id = "Parmesan"
+                   value = "Parmesan" />
+               <label for = "Parmesan">Parmesan</label>
+               <input type = "checkbox"
+                   id = "Freefromnuts"
+                   value = "Tomatoes" />
+               <label for = "Tomatoes">Tomatoes</label>
+               <input type = "checkbox"
+                   id = "SingleCream"
+                   value = "SingleCream" />
+               <label for = "SingleCream">Single Cream</label>
+               <input type = "checkbox"
+                   id = "Eggs"
+                   value = "Eggs" />
+               <label for = "Eggs">Eggs</label>
+        <br>
+           </p>
+         </fieldset>
+      </form>
+</h4>
+</center>
 
-  <div class="col-sm" id = "selecteditems">
-    <h4>Your chosen ingredients:</h4>
-    <br>
-    <ul id="ingredientslist">
+<div id="ingredients">
+Your chosen ingredients: <br>
+  <ul id="ingredientslist">
 
-    </ul>
-  </div>
+  </ul>
 </div>
 </div>
 
-<div class="container" id="formsubmitbutton">
-<div class ="row">
-  <div class="col-sm" id = "add-button">
-    <center> <a href="./recipe-options.html"><button type="button" class="btn btn-secondary btn-lg" id="Submit">Let's Get Cooking!</button></center>
-    </a><br>
-    <br>
-  </div>
-</div>
-</div>
-
-<script src="js/scripts.js"></script>
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <script src="js/scripts.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>
 </html>

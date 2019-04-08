@@ -34,9 +34,9 @@ h1 {
   font-family: 'News Cycle', sans-serif;
   text-align: center;
   justify-content: center;
-  margin: 2px;
+  margin: 5px;
   Color: #2d1f12;
-  font-size: 3em;
+  font-size: 4.5em;
 
 }
 
@@ -46,8 +46,9 @@ nav {
   font-family: 'Roboto', sans-serif;
 }
 
+
 .header-site {
-   background: url('../Images/spoons.jpg');
+   background: url('/Users/edith/Desktop/coding_course/FridgeRaiders/FridgeRaiders/CSS/spoons.jpg');
    height: 250px;
    background-repeat: repeat;
 
@@ -74,21 +75,4 @@ div.side-box {
     padding: 5px;
     margin-top: 65px;
     margin-right: 10px
-}
-
-div.container {
-  display: flex;
-  justify-content: center;
-  align-items: stretch;
-}
-
-#formcontent {
-margin-top: 25px;
-justify-content: space-around;
-display: flex;
-}
-
-#ingredientslist {
-  justify-content: center;
-  display: flex;
 }
