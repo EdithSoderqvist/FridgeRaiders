@@ -1,6 +1,6 @@
 body {
   color: rgb(00,00,00);
-  font-family: Roboto; sans-serif;
+  font-family: 'Roboto', sans-serif;
   margin: 0;
   text-align: center
   justify-content: center;
@@ -34,9 +34,9 @@ h1 {
   font-family: 'News Cycle', sans-serif;
   text-align: center;
   justify-content: center;
-  margin: 5px;
+  margin: 1px;
   Color: #2d1f12;
-  font-size: 4.5em;
+  font-size: 3em;
 
 }
 
@@ -48,7 +48,7 @@ nav {
 
 
 .header-site {
-   background: url('/Users/edith/Desktop/coding_course/FridgeRaiders/FridgeRaiders/CSS/spoons.jpg');
+   background: url('../spoons.jpg');
    height: 250px;
    background-repeat: repeat;
 
@@ -75,4 +75,9 @@ div.side-box {
     padding: 5px;
     margin-top: 65px;
     margin-right: 10px
+}
+
+#checklist {
+  margin-left: 110px;
+  margin-right: 110px;
 }
