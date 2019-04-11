@@ -42,7 +42,7 @@ h1 {
 
 
 nav {
-  background-color: #2d1f12;
+  background-color: #151515;
   font-family: 'Roboto', sans-serif;
 }
 
@@ -66,6 +66,7 @@ div.box {
   margin-left: 100px;
   margin-right: 100px;
   margin-top: 30px;
+  margin-bottom: 30px;
 
 }
 
@@ -74,10 +75,34 @@ div.side-box {
     text-align: justify;
     padding: 5px;
     margin-top: 80px;
+    margin-bottom: 80px;
     margin-right: 100px
 }
 
-#checklist {
-  margin-left: 110px;
-  margin-right: 110px;
+div.col-sm2 {
+   align-items: center;
+}
+
+ #checklist {
+   margin-left: 50px;
+   margin-right: 50px;
+}
+
+
+ #ingredientsform {
+   border: 1px solid #C0C0C0;
+   width: 32%;
+   text-align: center;
+}
+
+  #ingredients {
+    border: 1px solid #C0C0C0;
+    width: 32%;
+    text-align: center;
+}
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
 }
